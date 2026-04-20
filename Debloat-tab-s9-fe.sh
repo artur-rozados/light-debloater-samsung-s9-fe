@@ -78,7 +78,7 @@ run_command com.samsung.android.kidsinstaller
 run_command com.samsung.android.app.watchmanagerstub
 run_command com.samsung.android.app.spage # Bixby Home / Samsung Daily
 run_command com.sec.android.app.billing # Samsung Checkout
-run_command com.samsung.android.voc # Samsung Members
+# run_command com.samsung.android.voc # Samsung Members
 run_command com.samsung.android.mdx # Link to Windows
 run_command com.samsung.android.mdx.kit
 
@@ -119,11 +119,8 @@ prompt_category "Remove Samsung Keyboard (Honeyboard)? (WARNING: Have another ke
 prompt_category "Remove Google Photos? (Prevents background cloud scanning/uploading)" \
     com.google.android.apps.photos
 
-prompt_category "Remove Official YouTube? (Useful if you plan to install ReVanced)" \
+prompt_category "Remove Official YouTube? (Useful if you plan to install Grayjay)" \
     com.google.android.youtube
-
-prompt_category "Remove Samsung Wallet & Samsung Pay?" \
-    com.samsung.android.spay com.samsung.android.spaymini
 
 prompt_category "Remove Gaming Hub? (Keeps Game Optimizing Service and Game Booster intact for performance control)" \
     com.samsung.android.game.gamehome
