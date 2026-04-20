@@ -113,8 +113,8 @@ prompt_category "Remove Telephony Functions? (ONLY YES IF YOU ARE ON A WI-FI TAB
 prompt_category "Remove Default Browsers (Google Chrome & Samsung Internet)? (WARNING: Have another browser installed first!)" \
     com.android.chrome com.sec.android.app.sbrowser
 
-prompt_category "Remove Samsung Keyboard (Honeyboard)? (WARNING: Have another keyboard installed first, or you will be locked out!)" \
-    com.samsung.android.honeyboard com.sec.android.inputmethod
+#prompt_category "Remove Samsung Keyboard (Honeyboard)? (WARNING: Have another keyboard installed first, or you will be locked out!)" \
+#    com.samsung.android.honeyboard com.sec.android.inputmethod
 
 prompt_category "Remove Google Photos? (Prevents background cloud scanning/uploading)" \
     com.google.android.apps.photos
@@ -122,8 +122,8 @@ prompt_category "Remove Google Photos? (Prevents background cloud scanning/uploa
 prompt_category "Remove Official YouTube? (Useful if you plan to install Grayjay)" \
     com.google.android.youtube
 
-prompt_category "Remove Gaming Hub? (Keeps Game Optimizing Service and Game Booster intact for performance control)" \
-    com.samsung.android.game.gamehome
+#prompt_category "Remove Gaming Hub? (Keeps Game Optimizing Service and Game Booster intact for performance control)" \
+#    com.samsung.android.game.gamehome
 
 prompt_category "Remove Samsung Health & SmartThings?" \
     com.sec.android.app.shealth com.samsung.android.oneconnect
