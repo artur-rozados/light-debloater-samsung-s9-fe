@@ -77,10 +77,7 @@ run_command com.samsung.safetyinformation
 run_command com.samsung.android.kidsinstaller
 run_command com.samsung.android.app.watchmanagerstub
 run_command com.samsung.android.app.spage # Bixby Home / Samsung Daily
-run_command com.sec.android.app.billing # Samsung Checkout
 # run_command com.samsung.android.voc # Samsung Members
-run_command com.samsung.android.mdx # Link to Windows
-run_command com.samsung.android.mdx.kit
 
 
 # --- [STEP 3: Background Processes and Initializers] ---
@@ -134,8 +131,8 @@ prompt_category "Remove Samsung Shop & Global Goals?" \
 prompt_category "Remove Digital Wellbeing (Google & Samsung)? (Stops screen time tracking background services)" \
     com.samsung.android.wellbeing com.google.android.apps.wellbeing
 
-prompt_category "Remove UI Extras (Tips, Themes, and Routines)?" \
-    com.samsung.android.app.tips com.samsung.android.themestore com.samsung.android.app.routines
+prompt_category "Remove UI Extras (Tips and Themes)?" \
+    com.samsung.android.app.tips com.samsung.android.themestore 
 
 echo ""
 echo "-------------------------------------"
